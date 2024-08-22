@@ -31,11 +31,29 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![mobile](https://github.com/G-Gakii/E-commerce-product-page-solution/blob/main/images/screenshot/mobile.png)
+<p align="center"><em>mobile design</em></p>
+
+![desktop design](https://github.com/G-Gakii/E-commerce-product-page-solution/blob/main/images/screenshot/desktop.png)
+<p align="center"><em>desktop design</em></p>
+
+![mobile empty cart](https://github.com/G-Gakii/E-commerce-product-page-solution/blob/main/images/screenshot/mobile%20cartwithitem.png)
+<p align="center"><em>mobile design with empty cart</em></p>
+
+![desktop empty cart](https://github.com/G-Gakii/E-commerce-product-page-solution/blob/main/images/screenshot/DesktopwithEmptyCart.png)
+<p align="center"><em>desktop design with empty cart</em></p>
+
+![mobile filled cart](https://github.com/G-Gakii/E-commerce-product-page-solution/blob/main/images/screenshot/mobile%20cartwithitem.png)
+<p align="center"><em>mobile design with filled cart</em></p>
+
+![desktop filled cart](https://github.com/G-Gakii/E-commerce-product-page-solution/blob/main/images/screenshot/desktopWithItemInCart.png)
+<p align="center"><em>desktop design with filled cart</em></p>
+
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://e-commerce-product-page-solution-henna.vercel.app)
 - Live Site URL: (http://127.0.0.1:5500/index.html)
 
 ## My process
