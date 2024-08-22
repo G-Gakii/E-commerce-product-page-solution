@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="asset/css/style.css" />
+
+    <title>E-commerce product page</title>
+  </head>
+  <body>
+    <div class="all_container">
+      <nav>
+        <div class="nav_container">
+          <div class="left_nav">
+            <div class="nav_title">
+              <img class="menu" src="images/icon-menu.svg" alt="menu icon" />
+              <h1>sneakers</h1>
+            </div>
+            <div class="navbar_container">
+              <span id="cross"> X</span>
+              <ul>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="right_nav">
+            <div class="mycart">
+              <img src="images/icon-cart.svg" alt="cart icon" class="basket" />
+              <span id="total">0</span>
+            </div>
+
+            <img src="images/image-avatar.png" class="avatar" alt="avatar" />
+          </div>
+        </div>
+      </nav>
+      <main>
+        <div class="main_container">
+          <div class="images">
+            <div class="main_image_container">
+              <img
+                src="images/image-product-1.jpg"
+                alt="stylish white and brown pair of  sneaker one place on top of two white smooth stones and twig on the side place on orange surface"
+                class="main_image"
+              />
+            </div>
+            <div class="all_images">
+              <div class="icons">
+                <div class="prev_icon icon">
+                  <img
+                    src="images/icon-previous.svg"
+                    alt="previous icon"
+                    id="prev"
+                  />
+                </div>
+                <div class="next_icon icon">
+                  <img src="images/icon-next.svg" alt="next icon" id="next" />
+                </div>
+              </div>
+              <img
+                class="shoe"
+                src="images/image-product-1.jpg"
+                alt="stylish white and brown pair of sneaker place on an orange surface."
+                width="176"
+                height="176"
+              />
+              <img
+                class="shoe"
+                src="images/image-product-2.jpg"
+                alt="stylish white and brown pair of  sneaker one place on top of two white smooth stones and twig on the side place on orange surface "
+                width="176"
+                height="176"
+              />
+              <img
+                class="shoe"
+                src="images/image-product-3.jpg"
+                alt="stylish white and brown sneaker  place on top of two white smooth stones on orange surface"
+                width="176"
+                height="176"
+              />
+              <img
+                class="shoe"
+                src="images/image-product-4.jpg"
+                alt="stylish white and brown sneaker ,  resting over two white smooth stones on the heels on orange surface"
+                width="176"
+                height="176"
+              />
+            </div>
+          </div>
+          <div class="content_container">
+            <h2>Sneaker Company</h2>
+            <h3>Fall Limited Edition Sneakers</h3>
+            <p>
+              These low-profile sneakers are your perfect casual wear companion.
+              Featuring a durable rubber outer sole, they’ll withstand
+              everything the weather can offer.
+            </p>
+            <div class="price">
+              <div class="current_price">
+                <span class="dollar">$125.00</span>
+                <span class="per">50%</span>
+              </div>
+              <div class="prev_price">
+                <span>$250.00</span>
+              </div>
+            </div>
+            <div class="cart_container">
+              <div class="addOrRemove">
+                <img
+                  src="images/icon-minus.svg"
+                  alt="minus icon"
+                  class="minus"
+                />
+                <span class="zero">0</span>
+                <img src="images/icon-plus.svg" alt="plus icon" class="plus" />
+              </div>
+              <div class="cart_button">
+                <button class="cart_btn">
+                  <img src="images/icon-cart.svg" alt="cart icon" />
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart_content">
+          <div class="cart_content_head">
+            <span id="closeOrders">x</span>
+            <h2>Cart</h2>
+          </div>
+
+          <hr />
+          <div class="item"></div>
+        </div>
+      </main>
+    </div>
+    <script src="asset/js/main.js"></script>
+  </body>
+</html>
